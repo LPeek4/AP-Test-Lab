@@ -19,7 +19,20 @@ public class Main {
         String Goal = goal.nextLine();
 
         //This is the Muscles selection
-        //if ()
+        switch(Muscles){
+            case "Back" : Workouts.back(); break;
+            case "back" : Workouts.back(); break;
+            case "Chest" : Workouts.chest(); break;
+            case "chest" : Workouts.chest(); break;
+            case "Legs" : Workouts.legs(); break;
+            case "legs" : Workouts.legs(); break;
+            case "Arms" : Workouts.arms(); break;
+            case "arms" : Workouts.arms(); break;
+            case "Shoulders" : Workouts.shoulders(); break;
+            case "shoulders" : Workouts.shoulders(); break;
+
+
+        }
 
         //This is the Goal Selection
        switch(Goal){
@@ -29,8 +42,6 @@ public class Main {
            case "cardio": SetsReps.cardio(); break;
            case "Athletic": SetsReps.athletic(); break;
            case "athletic": SetsReps.athletic(); break;
-
-
 
        }
 
