@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class MusclesGoals {
 
-    public static void Muscles() {
+    public static void Muscles(String Muscles) {
 
-        Scanner muscles = new Scanner(System.in);
+        //Scanner muscles = new Scanner(System.in);
         System.out.println("Please Write Bellow Your Muscle Group of Choice.");
 
         System.out.print("Muscle Group: ");
-        String Muscles = muscles.nextLine();
+        //String Muscles = muscles.nextLine();
         System.out.println();
 
         //This is the Muscles selection
@@ -24,9 +24,15 @@ public class MusclesGoals {
             case "Shoulders": Workouts.shoulders(); break;
             case "shoulders": Workouts.shoulders(); break;
             default:
-                System.out.print("I dont think that's a body part..."); MusclesGoals.Muscles();
+                System.out.print("I dont think that's a body part..."); MusclesGoals.Muscles(Muscles);
 
         }
+
+        static String pastworkouts[] = new String[6];
+        for(int k = 0; k <= 6; k++){
+
+        }
+
     }
         public static void Goals() {
 

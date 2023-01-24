@@ -27,4 +27,14 @@ public class Workouts {
         System.out.println("Go get those boulder shoulders!");
 
     }
+
+    public static void past(){
+        System.out.println("Here is what you've been up to this week:");
+
+        for(int k = 0; k <= 6; k++){
+
+
+        }
+
+    }
 }
