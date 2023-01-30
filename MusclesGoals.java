@@ -22,7 +22,7 @@ public class MusclesGoals {
             case "arms": Workouts.arms(); break;
             case "Shoulders": Workouts.shoulders(); break;
             case "shoulders": Workouts.shoulders(); break;
-            default: System.out.print("I dont think that's a body part..."); MusclesGoals.Muscles(Muscles);
+            default: System.out.print("I dont think that's a body part..."); MusclesGoals.Muscles(fix);
 
         }
 
@@ -48,7 +48,7 @@ public class MusclesGoals {
                 case "cardio": SetsReps.cardio(); break;
                 case "Athletic": SetsReps.athletic(); break;
                 case "athletic": SetsReps.athletic(); break;
-                default: System.out.print("Maybe try that again..."); MusclesGoals.Goals(Goal);
+                default: System.out.print("Maybe try that again..."); MusclesGoals.Goals(fix);
             }
     }
 }
