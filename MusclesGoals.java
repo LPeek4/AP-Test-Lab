@@ -22,7 +22,7 @@ public class MusclesGoals {
             case "arms": Workouts.arms(); break;
             case "Shoulders": Workouts.shoulders(); break;
             case "shoulders": Workouts.shoulders(); break;
-            default: System.out.print("I dont think that's a body part..."); MusclesGoals.Muscles(fix);
+            default: System.out.print("I dont think that's a body part..."); MusclesGoals.MistakeMuscle(); break;
 
         }
 
@@ -48,8 +48,31 @@ public class MusclesGoals {
                 case "cardio": SetsReps.cardio(); break;
                 case "Athletic": SetsReps.athletic(); break;
                 case "athletic": SetsReps.athletic(); break;
-                default: System.out.print("Maybe try that again..."); MusclesGoals.Goals(fix);
+                default: System.out.print("Maybe try that again..."); MusclesGoals.MistakeGoal(); break;
             }
+    }
+
+    public static void MistakeMuscle(){
+
+        Scanner mistakemuscles = new Scanner(System.in);
+        System.out.println("Please Write Bellow Your Actual Muscle Group of Choice.");
+        System.out.print("Muscle Group: ");
+        String Muscles = mistakemuscles.nextLine();
+        System.out.println();
+
+        MusclesGoals.Muscles(Muscles);
+
+    }
+
+    public static void MistakeGoal(){
+
+        Scanner mistakegoal = new Scanner(System.in);
+        System.out.println("Now Please Select and Write Your Actual Exercise Goal (Strength, Cardio, Athletic)");
+        System.out.print("Goal: ");
+        String Goal = mistakegoal.nextLine();
+
+        MusclesGoals.Goals(Goal);
+
     }
 }
 
