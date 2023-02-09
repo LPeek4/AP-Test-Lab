@@ -14,18 +14,17 @@ public class Main {
             System.out.println("Please Write Bellow Your Muscle Group of Choice.");
             System.out.print("Muscle Group: ");
             String Muscles = muscles.nextLine();
+            Muscles = Muscles.toLowerCase();
 
             Scanner goal = new Scanner(System.in);
             System.out.println("Now Please Select and Write Your Exercise Goal (Strength, Conditioning, Athletic)");
             System.out.print("Goal: ");
             String Goal = goal.nextLine();
+            Goal = Goal.toLowerCase();
 
             switch (Goal) {
-                case "Strength": break;
                 case "strength": break;
-                case "Conditioning": break;
                 case "conditioning": break;
-                case "Athletic": break;
                 case "athletic": break;
                 default:
                     System.out.print("Maybe try that again...");
@@ -38,15 +37,10 @@ public class Main {
             gHistory[k] = Goal;
 
             switch (Muscles) {
-                case "Back": Workouts.back(Goal);break;
                 case "back": Workouts.back(Goal);break;
-                case "Chest": Workouts.chest(Goal);break;
                 case "chest": Workouts.chest(Goal);break;
-                case "Legs": Workouts.legs(Goal);break;
                 case "legs": Workouts.legs(Goal);break;
-                case "Arms": Workouts.arms(Goal);break;
                 case "arms": Workouts.arms(Goal);break;
-                case "Shoulders": Workouts.shoulders(Goal);break;
                 case "shoulders": Workouts.shoulders(Goal);break;
                 default:
                     System.out.print("I dont think that's a body part...");
