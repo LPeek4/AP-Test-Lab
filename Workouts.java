@@ -5,9 +5,9 @@ public class Workouts {
         System.out.println("Way to get Back to it!");
 
         switch(Goal){
-            case "conditioning":
-            case "strength":
-            case "athletic":
+            case "conditioning": System.out.println(""); break;
+            case "strength": System.out.println(""); break;
+            case "athletic": System.out.println(""); break;
         }
 
     }
@@ -16,9 +16,9 @@ public class Workouts {
         System.out.println("Best day is chest day!");
 
         switch(Goal){
-            case "conditioning":
-            case "strength":
-            case "athletic":
+            case "conditioning": System.out.println(""); break;
+            case "strength": System.out.println(""); break;
+            case "athletic": System.out.println(""); break;
         }
 
     }
@@ -27,9 +27,9 @@ public class Workouts {
         System.out.println("Finally!");
 
         switch(Goal){
-            case "conditioning":
-            case "strength":
-            case "athletic":
+            case "conditioning": System.out.println(""); break;
+            case "strength": System.out.println(""); break;
+            case "athletic": System.out.println(""); break;
         }
 
     }
@@ -38,9 +38,9 @@ public class Workouts {
         System.out.println("Maybe legs next time?");
 
         switch(Goal){
-            case "conditioning":
-            case "strength":
-            case "athletic":
+            case "conditioning": System.out.println(""); break;
+            case "strength": System.out.println(""); break;
+            case "athletic": System.out.println(""); break;
         }
 
     }
@@ -49,9 +49,9 @@ public class Workouts {
         System.out.println("Go get those boulder shoulders!");
 
         switch(Goal){
-            case "conditioning":
-            case "strength":
-            case "athletic":
+            case "conditioning": System.out.println(""); break;
+            case "strength": System.out.println(""); break;
+            case "athletic": System.out.println(""); break;
         }
 
     }
