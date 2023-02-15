@@ -29,7 +29,7 @@ public class Main {
                 default:
                     System.out.print("Maybe try that again...");
                     Scanner mistakegoal = new Scanner(System.in);
-                    System.out.println("Now Please Select and Write Your Actual Exercise Goal (Strength, Cardio, Athletic)");
+                    System.out.println("Now Please Select and Write Your Actual Exercise Goal (Strength, Conditioning, Athletic)");
                     System.out.print("Goal: ");
                     Goal = mistakegoal.nextLine();
                     break;
