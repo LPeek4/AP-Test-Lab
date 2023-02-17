@@ -1,6 +1,6 @@
 public class Workouts {
     static String Workout[] = new String[45];
-    public static void Work(){
+    public static void work(){
 
             //back
             Workout[0] = "Row Machine x10 min";
@@ -74,15 +74,21 @@ public class Workouts {
 
             switch (Goal) {
                 case "conditioning":
-                    for (int k = 0; k <= 2; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 0; k <= 2; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "strength":
-                    for (int k = 3; k <= 5; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 3; k <= 5; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "athletic":
-                    for (int k = 6; k <= 8; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 6; k <= 8; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
             }
@@ -94,15 +100,21 @@ public class Workouts {
 
             switch (Goal) {
                 case "conditioning":
-                    for (int k = 9; k <= 11; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 9; k <= 11; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "strength":
-                    for (int k = 12; k <= 14; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 12; k <= 14; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "athletic":
-                    for (int k = 15; k <= 17; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 15; k <= 17; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
             }
@@ -114,15 +126,21 @@ public class Workouts {
 
             switch (Goal) {
                 case "conditioning":
-                    for (int k = 18; k <= 20; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 18; k <= 20; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "strength":
-                    for (int k = 21; k <= 23; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 21; k <= 23; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "athletic":
-                    for (int k = 24; k <= 26; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 24; k <= 26; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
             }
@@ -134,15 +152,21 @@ public class Workouts {
 
             switch (Goal) {
                 case "conditioning":
-                    for (int k = 27; k <= 29; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 27; k <= 29; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "strength":
-                    for (int k = 30; k <= 32; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 30; k <= 32; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "athletic":
-                    for (int k = 33; k <= 35; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 33; k <= 35; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
             }
@@ -154,15 +178,21 @@ public class Workouts {
 
             switch (Goal) {
                 case "conditioning":
-                    for (int k = 36; k <= 38; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 36; k <= 38; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "strength":
-                    for (int k = 40; k <= 42; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 40; k <= 42; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "athletic":
-                    for (int k = 43; k <= 45; k++) {System.out.print(Workout[k] + " ");}
+                    System.out.println();
+                    for (int k = 43; k <= 45; k++)
+                        System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
             }
