@@ -185,13 +185,13 @@ public class Workouts {
                     break;
                 case "strength":
                     System.out.println();
-                    for (int k = 40; k <= 42; k++)
+                    for (int k = 39; k <= 41; k++)
                         System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
                 case "athletic":
                     System.out.println();
-                    for (int k = 43; k <= 45; k++)
+                    for (int k = 42; k <= 44; k++)
                         System.out.print(Workout[k] + "    ");
                     System.out.println();
                     break;
