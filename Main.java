@@ -13,7 +13,7 @@ public class Main {
 
 
             Scanner muscles = new Scanner(System.in);
-            System.out.println("Please Write Bellow Your Muscle Group of Choice. (Legs, Arms, Shoulders, Chest, Back");
+            System.out.println("Please Write Bellow Your Muscle Group of Choice. (Legs, Arms, Shoulders, Chest, Back)");
             System.out.print("Muscle Group: ");
             String Muscles = muscles.nextLine();
             Muscles = Muscles.toLowerCase();
